@@ -2,7 +2,7 @@
 
 Forecasting bulk and stratified vaccination numbers under a phased rollout approach
 
-**View a copy of the rendered notebook with *[nbviewer]()* or directly on [GitHub]().**
+**View a copy of the rendered notebook with *[nbviewer](https://nbviewer.jupyter.org/github/chance-alvarado/vaccination-rollout/blob/main/vaccination_rollout.ipynb)* or directly on [GitHub](https://github.com/chance-alvarado/vaccination-rollout/blob/main/vaccination_rollout.ipynb).**
 
 ---
 
