@@ -38,7 +38,7 @@ The COVID-19 pandemic and subsequent global rush for vaccination have placed hea
 |precent_eligible|float|0.80|Percent of population eligible to vaccinate|
 |refusal_rate|float|0.25|Percent of poulation who will refuse vaccinate|
 |phase_dates|list of str|['12/15/2020', '01/17/2021', '02/28/2021', '03/31/2021']|List of phase start dates|
-|phase_daily_doses|list of int|[20_000, 25_000, 35_000, 50_000]|List of daily doses by phase. Should match length pf ```phase_dates```|
+|phase_daily_doses|list of int|[20_000, 25_000, 35_000, 50_000]|List of daily doses by phase. Should match length of ```phase_dates```|
 |stratification_labels|list of str|['85+', '75-84', '65-74', '45-64', '25-44', '16-24']|Mutually exclusive groups to divide eligible into. Groups receive prioirity by index.|
 |stratification_proportions|list of float|[0.02, 0.07, 0.14, 0.34, 0.31, 0.12]|Proportion of eligible population within each group in ```stratification_labels```. Element of list should sum to 1|
 |priority_proportion|float|0.9|Proportion of daily doses to be alotted to highest priority group|
